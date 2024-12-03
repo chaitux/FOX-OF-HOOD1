@@ -20,10 +20,10 @@ app.secret_key = 'your_secret_key'
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'            # Your SMTP server
 app.config['MAIL_PORT'] = 587                           # Common port for TLS
 app.config['MAIL_USE_TLS'] = True                       # Use TLS for security
-app.config['MAIL_USERNAME'] = 'prasadmp151@gmail.com'    # Your email address
-app.config['MAIL_PASSWORD'] = 'fzwxhedusifillh'           # Your email password
-app.config['MAIL_DEFAULT_SENDER'] = ('Prasad', 'prasadmp151@gmail.com')
-app.config['MAIL_MAX_EMAILS'] = 50                      # Optional, sets a limit for batch emails
+app.config['MAIL_USERNAME'] = 'chandanasatwika@gmail.com'    # Your email address
+app.config['MAIL_PASSWORD'] = 'nbjlnyqkjtkshalx'           # Your email password
+app.config['MAIL_DEFAULT_SENDER'] = ('chandana', 'chandanasatwika@gmail.com')
+app.config['MAIL_MAX_EMAILS'] = 50                      
 
 # Initialize Mail extension
 mail = Mail(app)
